@@ -1,0 +1,136 @@
+
+div.sign{
+  height: 100%;
+  width: 100%;
+    /* margin-top: 200px; */
+    background: rgb(201, 39, 39);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+  }
+
+ form.sign {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+ h1.sign {
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(79, 98, 148);
+  }
+
+  .form.sign {
+    background: #0e101c;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+   p.sign {
+    color: #bf1650;
+  }
+
+ p::before.sign {
+    display: inline;
+    content: "⚠ ";
+  }
+
+   input.sign {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+    label.sign {
+    line-height: 2;
+    text-align: left;
+    display: block;
+    margin-bottom: 13px;
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+   button.sign[type="submit"],
+  input.sign[type="submit"] {
+    background: #ec5990;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 10px;
+  }
+
+   button.sign[type="submit"]:hover,
+   input.sign[type="submit"]:hover {
+    background: #bf1650;
+  }
+
+ button.sign[type="submit"]:active,
+   input.sign[type="button"]:active,
+  input.sign[type="submit"]:active {
+    transition: 0.3s all;
+    transform: translateY(3px);
+    border: 1px solid transparent;
+    opacity: 0.8;
+  }
+
+ input:disabled.sign {
+    opacity: 0.4;
+  }
+
+  input.sign[type="button"]:hover {
+    transition: 0.3s all;
+  }
+
+  button.sign[type="submit"],
+  input.sign[type="button"],
+  input.sign[type="submit"] {
+    -webkit-appearance: none;
+  }
+
+.App.sign {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  button.sign[type="button"] {
+    display: block;
+    appearance: none;
+    background: #333;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+
+  pre.sign {
+    color: white;
+  }
+
+   hr.sign {
+    margin-top: 30px;
+  }
+
+ button.sign {
+    display: block;
+    appearance: none;
+    margin-top: 40px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }

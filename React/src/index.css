@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.about-recipe{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items:center;
+}
+.img-backround{
+opacity: 80%;
+width: 100%;
+position: absolute;
+z-index: -7;
+overflow: hidden;
+top: 0;
+}
+
+.about-us{
+color: crimson;
+z-index: 9;
+position: absolute;
+top: 30%;
+font-size: 20px;
+right: 30%;
+direction: rtl;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.shoppingTitle{
+direction: rtl;
+color: crimson;
+font-size: 20px;
+margin-right: 100px;
+}
+.filter{
+display: flex;
+flex-direction: row;
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+direction: rtl;
+margin-top: 100px;
+}
